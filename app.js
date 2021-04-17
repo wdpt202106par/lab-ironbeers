@@ -4,6 +4,7 @@ const hbs = require('hbs');
 const path = require('path');
 const PunkAPIWrapper = require('punkapi-javascript-wrapper');
 
+
 const app = express();
 const punkAPI = new PunkAPIWrapper();
 
@@ -23,7 +24,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/beers', (req, res) => {
-  res.render('beers');
+  res.render('beers', getBeers());
+
 });
 
 app.get('/random-beers', (req, res) => {
