@@ -3,5 +3,93 @@ white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
+
 */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    
+}
+
+nav {
+    display: flex;
+    margin-top: 10px;
+    background-color:#2081c3;
+    border: 2px white solid;
+    box-shadow: 0 4px 2px -2px gray;
+    border-radius: 50%;
+    justify-content: center;
+    }
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.home-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-div img {
+    margin-top: 50px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:20px ;
+}
+
+.index-a {
+    padding: 30px;
+    background-color:#2081c3;
+    width: 180px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px white solid;
+    text-decoration: none;
+    color: white;
+    border-radius: 60%;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+footer {
+    color: white;
+    background-color: #0a2c42;
+    padding: 30px;
+    border: 2px white solid;
+    margin-bottom: 0;
+
+}
+.allbeer{
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 15px;
+}
+.beer{
+    width: 50%;
+    height: 350;
+}
+h1{
+    color: blue;
+}
+.randbeer{
+    display: flex;
+}
+.randbeer img{
+    width: 10%;
+}
