@@ -70,3 +70,26 @@ footer {
     margin-bottom: 0;
 
 }
+.allbeer{
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 15px;
+}
+.beer{
+    width: 50%;
+    height: 350;
+}
+h1{
+    color: blue;
+}
+.randbeer{
+    display: flex;
+}
+.randbeer img{
+    width: 10%;
+}

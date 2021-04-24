@@ -1,1 +1,9 @@
-<div>random-beers</div>
+<div class="randbeer">{{#each randbeer}}
+    <img src={{image_url}} alt="image-non-chargée">
+    <div>
+        <h1>{{name}}</h1>
+        <h3>{{tagline}}</h3>
+        <p>{{description}}</p>
+    </div>
+    {{/each}}
+</div>
